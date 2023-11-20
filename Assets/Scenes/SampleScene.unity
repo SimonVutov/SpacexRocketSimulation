@@ -5577,8 +5577,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 6
-      minScalar: 4
+      scalar: 50
+      minScalar: 50
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -6194,7 +6194,7 @@ ParticleSystem:
     m_BurstCount: 0
     m_Bursts: []
   SizeModule:
-    enabled: 1
+    enabled: 0
     curve:
       serializedVersion: 2
       minMaxState: 1
@@ -10310,7 +10310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!154 &777706027
 TerrainCollider:
   m_ObjectHideFlags: 0
@@ -19965,7 +19965,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 14
+      scalar: 50
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -20430,7 +20430,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 1, y: 1, z: 1}
+    m_Scale: {x: 2, y: 2, z: 2}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -20628,7 +20628,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 30
+      scalar: 100
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -20919,7 +20919,7 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0
+          value: 0.18919373
           inSlope: 5.8545446
           outSlope: 5.8545446
           tangentMode: 0
@@ -20927,8 +20927,8 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.20289859
-          value: 0.52892566
+          time: 0.2017084
+          value: 0.8127086
           inSlope: 0.95257235
           outSlope: 0.95257235
           tangentMode: 0
@@ -20936,7 +20936,7 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 1
+          time: 0.9963989
           value: 1
           inSlope: 0
           outSlope: 0
@@ -21231,18 +21231,18 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 0.9137255, b: 0.827451, a: 1}
-        key1: {r: 1, g: 0.78039217, b: 0.56078434, a: 1}
-        key2: {r: 0.32156864, g: 0.32156864, b: 0.32156864, a: 1}
+        key0: {r: 0, g: 0.7271333, b: 1, a: 1}
+        key1: {r: 1, g: 0.30874828, b: 0, a: 1}
+        key2: {r: 1, g: 1, b: 1, a: 1}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
         ctime0: 0
-        ctime1: 7258
-        ctime2: 17098
-        ctime3: 59193
+        ctime1: 2891
+        ctime2: 5397
+        ctime3: 30069
         ctime4: 65535
         ctime5: 65535
         ctime6: 0
@@ -24894,7 +24894,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1240898521
 Transform:
   m_ObjectHideFlags: 0
